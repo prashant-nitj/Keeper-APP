@@ -1,0 +1,31 @@
+:root {
+  --label-color: #343a40;
+  --border-color: #5f6368;
+  --primary-color: #fafafa;
+  --secondary-color: #41331c;
+  --background-color: #121212;
+  --color-list-border: #3f3f46;
+  --navbar-background-color: #1f1b24;
+  --not-present-text: #9aa0a6;
+  --not-present-icon: #202124;
+  --colorlist-selected-border-color: #a142f4;
+  --background-hover-color: rgba(232, 234, 237, 0.08);
+  --search-text-background-color: rgba(241, 243, 244, 0.24);
+  --modal-background-color: rgba(10, 10, 10, 0.6);
+  --overlay-background-color: rgba(255, 255, 255, 0.5);
+  --search-focus-color: rgba(255, 255, 255, 0.87);
+}
+
+.light {
+  --label-color: #f3f4f6;
+  --background-color: #ffffff;
+  --primary-color: #000000;
+  --secondary-color: #eab308;
+  --navbar-background-color: #e7e5e4;
+  --not-present-text: #80868b;
+  --not-present-icon: rgba(0, 0, 0, 0.2);
+  --search-text-background-color: #fafafa;
+  --background-hover-color: #f3f4f6;
+  --search-focus-color: rgba(255, 255, 255, 0.87);
+  --overlay-background-color: rgba(0, 0, 0, 0.4);
+}

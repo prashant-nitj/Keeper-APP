@@ -1,0 +1,55 @@
+.sidebar {
+  grid-area: sidebar;
+  min-width: 9rem;
+}
+.sidebar-item {
+  padding: 1.5rem 3rem;
+  font-weight: 500;
+}
+
+.sidebar-icon {
+  padding-right: 2rem;
+}
+
+.sidebar-show {
+  padding: 1.5rem 3rem;
+  font-weight: 500;
+}
+
+.sidebar-show:hover {
+  background-color: var(--background-hover-color);
+  border-radius: 0 2.5rem 2.5rem 0;
+}
+
+.sidebar .active {
+  background-color: var(--secondary-color);
+  border-radius: 0 2.5rem 2.5rem 0;
+}
+
+.show-list {
+  display: block;
+}
+
+.show-names {
+  display: inline-block;
+}
+
+.hide-names {
+  display: none;
+}
+
+.hide-list {
+  width: 9rem;
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar {
+    min-width: 0;
+  }
+
+  .show-list {
+    width: fit-content;
+    z-index: 1;
+    background-color: var(--navbar-background-color);
+  }
+}

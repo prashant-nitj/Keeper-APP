@@ -1,0 +1,66 @@
+.form-container {
+  margin-top: 2.5rem;
+}
+
+.form-area {
+  width: 80%;
+  margin: auto;
+}
+
+.form-input {
+  font-weight: 600;
+}
+
+.text-input-area {
+  resize: none;
+}
+
+.notesform-labels-list {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 1.2rem;
+  border: 1px solid;
+  margin: 5px 1.2rem 5px 0;
+}
+
+.add-btn {
+  margin: 1.2rem 1.6rem;
+}
+
+.add-btn:hover {
+  background-color: var(--background-hover-color);
+}
+
+.label-btn:hover {
+  background-color: var(--background-hover-color);
+}
+
+.color-palette-icon {
+  display: none;
+  margin-right: 0.8rem;
+  padding: 1rem;
+}
+
+.color-palette-icon:hover {
+  background-color: var(--background-hover-color);
+  border-radius: 50%;
+}
+
+.color-palette-container {
+  position: absolute;
+  right: 1.5rem;
+  top: 6.5rem;
+  z-index: 2;
+  background-color: var(--background-color);
+  border-radius: 0.8rem;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 60%), 0 2px 6px 2px rgb(0 0 0 / 30%);
+}
+
+@media screen and (max-width: 600px) {
+  .hide {
+    display: none;
+  }
+  .color-palette-icon {
+    display: inline-block;
+  }
+}

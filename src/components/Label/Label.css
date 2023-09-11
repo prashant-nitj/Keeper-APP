@@ -1,0 +1,75 @@
+.label-modal-bg {
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  background-color: var(--modal-background-color);
+}
+
+.show-modal-bg {
+  visibility: visible;
+  opacity: 1;
+}
+
+.label-modal-content {
+  min-width: 25rem;
+  background-color: var(--background-color);
+}
+
+.labels-header {
+  padding-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.label-input {
+  background-color: transparent;
+  border-bottom: 1px solid var(--border-color);
+  height: 2.5rem;
+  margin: 0 1.5rem;
+  color: var(--primary-color);
+}
+
+.add-label-btn {
+  padding: 3px;
+  margin-bottom: 4px;
+}
+
+.add-label-btn:hover {
+  border-radius: 50%;
+  background-color: var(--background-hover-color);
+}
+
+.labels-list {
+  margin-bottom: 0.8rem;
+}
+
+.label-name {
+  margin-left: 0.8rem;
+}
+
+.delete-label-btn {
+  padding: 3px;
+}
+
+.delete-label-btn:hover {
+  border-radius: 50%;
+  background-color: var(--background-hover-color);
+}
+
+.edit-label-btn {
+  padding: 3px;
+}
+
+.edit-label-btn:hover {
+  border-radius: 50%;
+  background-color: var(--background-hover-color);
+}
+
+.modal-close-btn {
+  margin-top: 1.5rem;
+  padding: 0.8rem 2.4rem;
+}
+
+.modal-close-btn:hover {
+  background-color: var(--background-hover-color);
+}

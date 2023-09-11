@@ -1,0 +1,47 @@
+.modal-background {
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  background-color: var(--modal-background-color);
+}
+
+.show-modal-bg {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-container {
+  width: 60rem;
+  background-color: var(--background-color);
+}
+
+.modalform-labels-list {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 1.2rem;
+  border: 1px solid;
+  margin: 0px 5px 5px 0;
+}
+
+.close-modal {
+  margin: 1.2rem 1.6rem;
+}
+
+.close-modal-button {
+  padding: 1rem;
+  transition: all 0.3s;
+}
+
+.close-modal-button:hover {
+  background-color: var(--background-hover-color);
+  border-radius: 50%;
+}
+
+.btn {
+  margin-right: 1.2rem;
+}
+
+.btn:hover {
+  background-color: var(--background-hover-color);
+}
